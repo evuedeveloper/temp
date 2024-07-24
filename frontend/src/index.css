@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Overused Grotesk";
+    src: url(./assets/fonts/OverusedGrotesk-VF.woff2) format('woff2');
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f8f9f0;
+}
+
